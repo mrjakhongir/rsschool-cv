@@ -1,2 +1,2 @@
 # rsschool-cv
-This is my cv in markdown
+https://mrjakhongir.github.io/rsschool-cv/cv
