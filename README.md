@@ -1,1 +1,1 @@
-# rsschool-cv
+Deployment: https://mrjakhongir.github.io/rsschool-cv/cv
