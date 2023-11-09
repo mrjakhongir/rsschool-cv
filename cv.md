@@ -48,12 +48,13 @@ function getParticipants(handshakes){
 
 ### Reiwa Group
 
-This is my first real project ever. I was responsible build this website almost completely. 
+This is my first real project ever. I was responsible build this website almost completely.
 Used technologies:
 
     - React UI library
     - Preprocessor Sass for styling
     - Redux toolkit for managing states
+
 ## Education
 
 - Bukhara Engineering Technological Institute
@@ -65,11 +66,7 @@ Used technologies:
   - Frontend Developer Career Path
 
 - Udemy
-  - Typescript
-  - node.js
-  - express.js
-  - postgeSql
-  - adnvanced react
+  - Complete Web Development bootcamp(in progress)
 
 ## Languages
 
