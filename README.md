@@ -1,1 +1,3 @@
-# rsschool-cv
+Deployment in markdown: https://mrjakhongir.github.io/rsschool-cv/cv
+
+Deployment: https://mrjakhongir-rsschool-cv.netlify.app/
