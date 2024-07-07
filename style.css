@@ -1,30 +1,30 @@
 * {
-  padding: 0;
-  /* margin: 0; */
-  box-sizing: border-box;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
 }
 h1 {
-  color: coral;
+	color: coral;
 }
 
 h2,
 h3 {
-  color: #292929;
+	color: #292929;
 }
 body {
-  width: 700px;
-  margin: 0 auto;
+	width: 700px;
+	margin: 0 auto;
 }
 ul {
-  margin-left: 2rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+	margin-left: 2rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 li {
-  margin-bottom: 0.5rem;
-  list-style: none;
+	margin-bottom: 0.5rem;
+	list-style: none;
 }
 span {
-  font-weight: bold;
-  color: #292929;
+	font-weight: bold;
+	color: #292929;
 }
