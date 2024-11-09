@@ -5,7 +5,6 @@
 - Phone: +998(93) 313 88 99
 - e-mail: nusratovjahongir@gmail.com
 - GitHub: [mrjakhongir](https://github.com/mrjakhongir)
-- Discord: [mrjakhongir](https://discord.com/channels/@me)
 - LinkedIn: [jahongir-nusratov](https://www.linkedin.com/in/jahongir-nusratov/)
 
 ## About Me
