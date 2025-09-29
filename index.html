@@ -4,9 +4,225 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>RSSchool CV</title>
   </head>
   <body>
-    my cv
+    <header class="container" id="header">
+      <div class="logo">NJ</div>
+      <nav class="menu">
+        <ul class="menu-list">
+          <li><a href="#about">about</a></li>
+          <li><a href="#contacts">contacts</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#education">education</a></li>
+          <li><a href="#projects">projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="container" id="hero">
+        <h1 class="hero-title">Nusratov Jahongir</h1>
+        <h2 class="hero-subtitle">Frontend Developer</h2>
+        <img
+          src="me.jpg"
+          alt="me on the chair, in front of computer desk"
+          width="300"
+          height="300"
+          class="hero-image"
+        />
+      </section>
+
+      <section id="about" class="container">
+        <h2 class="section-title about-title">About me</h2>
+        <p class="section-text about-text">
+          Hello! My name is
+          <strong>Nusratov Jahongir</strong>, a Fullstack Web Developer and
+          freelancer from Bukhara, Uzbekistan. I specialize in
+          <strong>Next.js</strong> with <strong>TypeScript</strong> and
+          <strong> TailwindCSS</strong> for styling with a strong focus on
+          creating scalable, user-friendly, and performance-driven applications.
+          With more than 2 years of experience, I’ve successfully worked on
+          projects ranging from e-commerce platforms and multi-page SEO websites
+          to Telegram bots and custom dashboards.
+        </p>
+      </section>
+
+      <section id="skills" class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-wrapper">
+          <section>
+            <h3>Languages</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Frameworks</h3>
+            <ul>
+              <li>React</li>
+              <li>Next.js</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>Tools</h3>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>GitLab</li>
+              <li>TailwindCSS</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3>UI Frameworks</h3>
+            <ul>
+              <li>Material UI</li>
+              <li>Ant Design</li>
+              <li>Chakra UI</li>
+              <li>Shadcn</li>
+            </ul>
+          </section>
+        </div>
+      </section>
+
+      <section id="education" class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-wrapper">
+          <section>
+            <h3>
+              Bachelor degree - Bukhara Engineering Technological Institute
+            </h3>
+            <p>2016 - 2020</p>
+          </section>
+
+          <section>
+            <h3>Frontend development bootcamp - Scrimba.com</h3>
+            <p>Jan 2023 - Jul 2023</p>
+          </section>
+
+          <section>
+            <h3>Frontend development bootcamp - udemy.com</h3>
+            <p>Jan 2024 - Aug 2024</p>
+          </section>
+
+          <section>
+            <h3>Frontend development bootcamp - rsschool</h3>
+            <p>Nov 2024 - Jul 2025</p>
+          </section>
+        </div>
+      </section>
+
+      <section id="projects" class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-wrapper">
+          <section class="project">
+            <div class="project-image-wrapper">
+              <img
+                src="antikdecor-1.png"
+                alt="antikdecor"
+                width="300"
+                height="300"
+                class="project-image"
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">
+                <a href="https://antikdecor.ru/" target="_blank">Antikdecor</a>
+              </h3>
+              <p class="project-text">
+                e-commerce website with React.js, Redux Toolkit, SCSS
+              </p>
+            </div>
+          </section>
+
+          <section class="project">
+            <div class="project-image-wrapper">
+              <img
+                src="osnova-1.png"
+                alt="antikdecor"
+                width="300"
+                height="400"
+                class="project-image"
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">
+                <a href="https://my.osnovaedu.uz/" target="_blank">Osnovaedu</a>
+              </h3>
+              <p class="project-text">
+                e-learning platform in React.js, Redux Toolkit, SCSS, Chakra UI
+              </p>
+            </div>
+          </section>
+
+          <section class="project">
+            <div class="project-image-wrapper">
+              <img
+                src="coffee-1.png"
+                alt="antikdecor"
+                width="300"
+                height="400"
+                class="project-image"
+              />
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">
+                <a
+                  href="https://coffee-house-rsschool.netlify.app/"
+                  target="_blank"
+                  >Coffee House</a
+                >
+              </h3>
+              <p class="project-text">
+                Small coffee shop website with simple HTML, CSS and JavaScript
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section id="code-examples" class="container">
+        <h2 class="section-title">Code Examples</h2>
+        <code class="code-block">
+          <pre>
+function add(a, b) {
+
+  return a + b;
+
+}
+          </pre>
+        </code>
+      </section>
+
+      <section id="contacts" class="container">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="contacts-list">
+          <li><a href="https://t.me/mr_jakhongir">Telegram</a></li>
+          <li><a href="https://github.com/mrjakhongir">GitHub</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/nusratov-jahongir/"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="container" id="footer">
+      <a href="https://github.com/mrjakhongir">GitHub</a>
+      <p>&copy; 2025</p>
+      <a href="https://rs.school/courses/short-track" target="_blank">
+        <img src="rs-school-logo.svg" alt="rsschool logo" width="100" />
+      </a>
+    </footer>
   </body>
 </html>
