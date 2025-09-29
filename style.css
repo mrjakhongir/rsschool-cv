@@ -69,6 +69,13 @@ h2 {
   align-items: center;
   justify-content: space-between;
   padding: 2rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  z-index: 100;
+  backdrop-filter: blur(10px);
 }
 
 .logo {
@@ -103,7 +110,7 @@ h2 {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  padding: 5rem 2remrem;
+  padding: 5rem 2rem;
 }
 
 .hero-title {
