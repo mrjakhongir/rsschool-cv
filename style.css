@@ -275,7 +275,7 @@ h2 {
   padding: 5rem 2rem;
 }
 
-.code-block pre {
+.code-block {
   background: var(--bg-dark);
   padding: 2rem;
   border-radius: 10px;
